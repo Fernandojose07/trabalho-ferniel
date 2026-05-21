@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+    display: flex;
+}
+
+.img{
+    width: 500px;
+    height: 650px;
+    padding: 50px 0px 0px 50px;
+}
+
+.sobre{
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-top: 50px;
+    align-items: center;
+    max-width: 1100px;
+    flex-wrap: wrap;
+    padding-left: 100px;
+    padding-right: 100px;
+    gap: 50px;
+}
+
+.sobre .titulo{
+    color: white;
+    font-size: 50px;
+}
+
+.sobre .descricao{
+    color: white;
+    font-size: 20px;
+}
